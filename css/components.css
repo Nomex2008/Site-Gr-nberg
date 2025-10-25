@@ -1,0 +1,22 @@
+.button {
+    border-radius: 100px;
+    border: 1px solid var(--text-primary);
+    color: var(--text-primary);
+    padding: 16px 20px;
+    line-height: 1.2;
+    font-size: 18px;
+    align-items: center;
+    display: inline-flex;
+    gap: 10px;
+    transition: all .3s ease;
+}
+.button path {
+    stroke: var(--text-primary);
+}
+.button:hover {
+    color: var(--text-inverse);
+    background-color: var(--text-primary);
+}
+.button:hover path {
+    stroke: var(--text-inverse);
+}
