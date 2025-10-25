@@ -1,5 +1,17 @@
-body {
+:root {
+	--text-default: #101010;
+	--text-primary: #DB574D;
+	--text-muted: rgba(16, 16, 16, 0.60);
+	--text-inverse: #FFF;
+}
 
+body {
+    font-family: 'Clash Display', sans-serif;
+	font-style: 1rem;
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+	color: var(--text-default);
 }
 
 .wrapper {
