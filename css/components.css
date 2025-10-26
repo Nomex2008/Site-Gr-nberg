@@ -34,6 +34,9 @@
 .arrow-link--left {
     flex-direction: row-reverse;
 }
+.arrow-link--ext {
+
+}
 .arrow-link path {
     stroke: var(--text-default);
     transition: all .3s ease;
@@ -43,4 +46,22 @@
 }
 .arrow-link:hover path{
     stroke: var(--text-primary);
+}
+/*block-header*/
+.block-header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px 20px;
+}
+.block-header__title {
+    line-height: 1.1;
+    font-size: 100px;
+    text-transform: uppercase;
+}.block-header__title  span {
+    color: var(--text-primary);
+}
+.block-header__link {
 }
