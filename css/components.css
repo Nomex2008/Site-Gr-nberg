@@ -12,6 +12,7 @@
 }
 .button path {
     stroke: var(--text-primary);
+    transition: all .3s ease;
 }
 .button:hover {
     color: var(--text-inverse);
@@ -19,4 +20,27 @@
 }
 .button:hover path {
     stroke: var(--text-inverse);
+}
+/*arrow*/
+.arrow-link {
+    color: var(--text-default, #101010);
+    font-size: 18px;
+    line-height: 120%;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    transition: all .3s ease;
+}
+.arrow-link--left {
+    flex-direction: row-reverse;
+}
+.arrow-link path {
+    stroke: var(--text-default);
+    transition: all .3s ease;
+}
+.arrow-link:hover {
+    color: var(--text-primary);
+}
+.arrow-link:hover path{
+    stroke: var(--text-primary);
 }
