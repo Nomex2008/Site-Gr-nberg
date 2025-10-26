@@ -23,7 +23,7 @@ html,body{
 }
 input,button,textarea{font-family: inherit;}
 input::-ms-clear{display: none;}
-button{cursor: pointer;}
+button{cursor: pointer;background-color: transparent;}
 button::-moz-focus-inner{padding: 0;border: 0;}
 a{text-decoration: none;color: inherit;display: inline-block;}
 a,a:visited{text-decoration: none;}
